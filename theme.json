@@ -1,0 +1,14 @@
+{
+    "name": "Modern Steam",
+    "author": "idkncc",
+    "version": "1.0.0",
+    "description": "Theme, that tries to make steam to look more modern",
+    "target": "Other",
+    "manifest_version": 8,
+    "inject": {
+        "styles/Shared.css": ["bigpicture", "QuickAccess", "MainMenu"],
+        "styles/BigPicture.css": ["bigpicture"],
+        "styles/QuickAccess.css": ["QuickAccess"],
+        "styles/MainMenu.css": ["MainMenu"]
+    }
+}

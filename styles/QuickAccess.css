@@ -1,0 +1,107 @@
+#QuickAccess-Menu {
+    background: transparent;
+    margin: 1vh 0;
+    height: calc(100% - 3dvh);
+
+    ._1gJzx0OgstpPqW34DFUKC6::before, ._1gJzx0OgstpPqW34DFUKC6::after {
+        display: none;
+    }
+
+    /* tablist */
+    ._3Ag1wVkrYOaZyOUNWGLf3Y.Panel {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+                
+        svg {
+            filter: drop-shadow(0 0 4px rgba(0, 0, 0, .6));
+        }
+
+        & > ._2z5NLWXYyRbqbrFDD718Y_.Panel {
+            flex-grow: 0 !important;
+            padding-top: 2px;
+
+       
+            /* tab */
+            ._1S76C3gQf4oOTbLdTMVH0m {
+                border-radius: 12px 0 0 12px;
+                clip-path: none;
+                margin-left: 6px;
+
+            }
+
+            /* selected tab */
+            ._2QHMua1-KysYKpszTPAW_O {
+                animation-name: QuickAccessItem;
+            }
+        }
+
+        /* keyboard button */
+        & > ._1RN_UxDCIp9wCvlh0m7OL5 {
+            width: 48px;
+            height: 48px;
+
+            color: #FFF;
+            border: none;
+
+            svg {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+
+    ._2BB6uf--jFaAmdnwLOqMU7.Panel {
+        max-width: calc(300px - 6px);
+        border-radius: 12px 0 0 12px;
+
+        padding-top: 0;
+        &::before {
+            content: "";
+            background: rgb(3, 3, 6);
+            height: 14px;
+        }
+
+        & > div {
+            background: rgba(3, 3, 6, 0.97);
+            
+            /* tab content (selected) */   
+            & > div {
+
+                /* content header */   
+                ._34nl5vUoFCDYYnmHNL7axB {
+                    background: rgb(3, 3, 6);
+                    box-shadow: 0 0 0px 12px rgb(3, 3, 6);
+                }
+
+                /* quick share */
+                ._1QO7bWVxsVONFdHDAJGCtF {
+                    .FriendsListSteamDeckTopSection {
+                        background: rgb(3, 3, 6);
+                    }
+                }
+
+                /* list items */
+                ._2yhmcyeUOyM8lt__Skbk9O:hover, ._2yhmcyeUOyM8lt__Skbk9O.gpfocus {
+                    background-color: rgb(24, 24, 28) !important;
+                }
+
+                .friendlist {
+                    background: transparent;
+                }
+            }
+        }
+    }
+    
+}
+
+@keyframes QuickAccessItem {
+    0% {
+        background: rgba(40, 40, 43, 1);
+        color: #fff;
+    }
+    100% {
+        background: rgba(3, 3, 6, 0.97);
+        color: #fff;
+    }
+}

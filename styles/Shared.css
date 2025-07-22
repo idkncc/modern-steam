@@ -1,4 +1,6 @@
 #header {
+    background-color: transparent !important;
+
     gap: 4px;
     padding: 4px 8px;
     height: calc(40px - 4px * 2);
@@ -88,6 +90,32 @@
             transform: scale(1.23);
             top: 1px;
             left: 1px !important;
+        }
+    }
+}
+
+.BasicUIContextMenu {
+    ._2pq9my4HQChCImf0dPb9Kd {
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .oZw50c4oJ6-r0HP8UWv25.Panel {
+        & > :first-child, .ixiWPQKqTMxnq43WgT3vj + .Panel, [style="display: none;"] + .Panel {
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+
+        & > :last-child, & > :has(+ .ixiWPQKqTMxnq43WgT3vj, + [style="display: none;"]) {
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+        }
+
+        & > .Panel {
+        }
+
+        .ixiWPQKqTMxnq43WgT3vj {
+            height: 6px;
         }
     }
 }

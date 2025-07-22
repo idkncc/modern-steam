@@ -3,6 +3,10 @@
     margin: 1vh 0;
     height: calc(100% - 3dvh);
 
+    ._3k5MHjpKaOv6C29MKPgd6x > #header {
+        background: none;
+    }
+
     ._1gJzx0OgstpPqW34DFUKC6::before, ._1gJzx0OgstpPqW34DFUKC6::after {
         display: none;
     }
@@ -12,6 +16,9 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+
+        margin: 12px 0;
+        border: none;
                 
         svg {
             filter: drop-shadow(0 0 4px rgba(0, 0, 0, .6));
@@ -20,14 +27,14 @@
         & > ._2z5NLWXYyRbqbrFDD718Y_.Panel {
             flex-grow: 0 !important;
             padding-top: 2px;
-
        
             /* tab */
             ._1S76C3gQf4oOTbLdTMVH0m {
                 border-radius: 12px 0 0 12px;
                 clip-path: none;
                 margin-left: 6px;
-
+        
+                color: rgba(160, 160, 160, 0.8);
             }
 
             /* selected tab */
@@ -58,26 +65,26 @@
         padding-top: 0;
         &::before {
             content: "";
-            background: rgb(3, 3, 6);
+            background: rgb(6, 6, 9);
             height: 14px;
         }
 
         & > div {
-            background: rgba(3, 3, 6, 0.97);
+            background: rgba(6, 6, 9, 0.97);
             
             /* tab content (selected) */   
             & > div {
 
                 /* content header */   
                 ._34nl5vUoFCDYYnmHNL7axB {
-                    background: rgb(3, 3, 6);
-                    box-shadow: 0 0 0px 12px rgb(3, 3, 6);
+                    background: rgb(6, 6, 9);
+                    box-shadow: 0 0 0px 12px rgb(6, 6, 9);
                 }
 
                 /* quick share */
                 ._1QO7bWVxsVONFdHDAJGCtF {
                     .FriendsListSteamDeckTopSection {
-                        background: rgb(3, 3, 6);
+                        background: rgb(6, 6, 9);
                     }
                 }
 
@@ -101,7 +108,7 @@
         color: #fff;
     }
     100% {
-        background: rgba(3, 3, 6, 0.97);
+        background: rgba(6, 6, 9, 0.97);
         color: #fff;
     }
 }

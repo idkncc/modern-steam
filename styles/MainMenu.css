@@ -14,17 +14,30 @@
         ._33RkHXjHPoThT-d4uAt-n6 {
             display: none;
         }
+
+        /* shadow at the end */
+        ._3kHmfV9Pej6JhVOBMGhcgq {
+            box-shadow: none;
+        }
         
+        /* item container */
         ._1BbM8Qq8OL5N8gL4PYH397 {
             margin-left: 20px;
             width: 220px;
             
             border-radius: 999px;
 
+            /* item */
             ._2w9TpQwxU7vcwaAbf3KGv_ {
+                /* selected indicator */
                 ._1uLVHdiiCg78BRnhqLxUID {
                     width: 15px !important;
                     height: 60% !important;
+                }
+
+                /* icon container and text container */
+                ._3xZ3ZujYllkNRr5UdDfNmz, ._3x-ZK1MiNB1Uvo7Aa6qEBs {
+                    filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.3));
                 }
 
                 &.gpfocus {

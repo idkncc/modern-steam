@@ -6,11 +6,11 @@ Stylesheet, that looks more modern/fluent
 
 ## Screenshots
 
-<img src="docs/img1.jpg" alt="Home page" width=200 />
-<img src="docs/img2.jpg" alt="Steam menu" width=200 />
-<img src="docs/img3.jpg" alt="Quick access menu" width=200 />
-<img src="docs/img4.jpg" alt="Context menu" width=200 />
-<img src="docs/img5.jpg" alt="Settings menu" width=200 />
+|   |   |
+|:-:|:-:|
+|<img src="docs/img1.jpg" alt="Home page" />  Main page (topbar and footer) |<img src="docs/img2.jpg" alt="Steam menu" /> Steam menu|
+|<img src="docs/img3.jpg" alt="Quick access menu" /> Quick Access menu|<img src="docs/img4.jpg" alt="Context menu" /> Context menu|
+|<img src="docs/img5.jpg" alt="Settings menu" /> Settings page| |
 
 ## Installation
 
